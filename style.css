@@ -37,3 +37,11 @@
     font-size: 16px;
     font-weight: bold;
   }
+
+    .banner {
+    height: 350px;
+    width: 100%;
+    background-image: url("../images/code_pic.jpg");
+    background-size: cover;
+    background-position: center;
+  }
