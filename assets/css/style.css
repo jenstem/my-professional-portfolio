@@ -79,6 +79,14 @@
     .columns {
     display: flex;
     margin: 5px;
-    background-color: var(--white);
+    background-color: white;
     border-radius: 8px;
+  }
+
+    h2 {
+    position: relative;
+    text-align: center;
+    color: blue;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
   }
