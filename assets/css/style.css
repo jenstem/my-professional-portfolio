@@ -1,9 +1,13 @@
+/* Root */
+
 :root {
     --white: white;
     --purple: #aa2afa;
     --blue: #0a5cf5;
     --black: black;
   }
+
+  /* Universal Selectors */
 
   *,
   *::before,
@@ -12,16 +16,23 @@
     font-family: arial, sans-serif;
   }
 
+  /* Header */
+
   header {
     background: var(--purple);
     height: auto;
   }
+
+
+  /* Jen's Code */
 
   .jens_code {
     float: left;
     padding-left: 20px;
     color: var(--white);
   }
+
+  /* Navigation Bar */
 
   .nav-bar {
     display: flex;
@@ -61,6 +72,8 @@
     color: var(--blue);
   }
 
+  /* Banner */
+
   .banner {
     height: 350px;
     width: 100%;
@@ -70,12 +83,16 @@
     background-position: center;
   }
 
+  /* Main */
+
   main {
     padding: 40px;
     min-height: 100%;
     display: flex;
     flex-direction: column;
   }
+
+  /* Body */
 
   body {
     margin: 0;
@@ -84,6 +101,8 @@
     display: flex;
     flex-direction: column;
   }
+
+  /* About Me Section */
 
   .about-me {
     text-align: center;
@@ -106,6 +125,8 @@
     border-radius: 8px;
   }
 
+  /* H2 Headers */
+
   h2 {
     position: relative;
     text-align: center;
@@ -123,6 +144,8 @@
     height: 4px;
     width: 50px;
   }
+
+    /* Footer Headers */
 
   h4 {
     position: relative;
@@ -143,6 +166,8 @@
     width: 50px;
   }
 
+  /* Flex-box for Portfolio Section */
+
   .work-box {
     display: flex;
     justify-content: center;
@@ -150,24 +175,34 @@
     align-items: center;
   }
 
+  /* Projects */
+
   .project1, .project2, .project3, .project4 {
     height: 100%;
     width: 100%;
     border-radius: 8px;
   }
 
+  /* Projects Hover and Pop */
+
   .project1:hover, .project2:hover, .project3:hover, .project4:hover {
     transform: scale(1.01);
     opacity: 0.5;
   }
 
+  /* H3 Headers */
+
   h3 {
     text-align: center;
   }
 
+  /* Center Text */
+
   p {
     text-align: center;
   }
+
+  /* Contact Me Section */
 
   .contact {
     position: relative;
@@ -207,6 +242,8 @@
     min-height: 150px;
   }
 
+  /* Contact Me Button */
+
   .send-button {
     width: 100%;
     padding: 6px 12px;
@@ -226,6 +263,7 @@
     height: 200px;
   }
 
+  /* Footer */
 
   .footer-box {
     background-color: var(--purple);
@@ -254,6 +292,11 @@
     color: var(--blue);
   }
 
+
+  /* Media Query */
+
+  /* Desktop */
+
   @media screen and (max-width: 4500px) {
     .contact-box {
       grid-template-columns: 1fr;
@@ -265,6 +308,8 @@
       height: 50px;
     }
   }
+
+  /* Tablet */
 
   @media screen and (max-width: 768px) {
     header,
@@ -295,6 +340,8 @@
       flex-direction: column;
     }
   }
+
+  /* Mobile */
 
   @media screen and (max-width: 375px) {
     .work-box {
