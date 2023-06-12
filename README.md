@@ -36,7 +36,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 *This is the wireframe I created and used to plan out the website*
 
 ![](https://github.com/jenstem/my-professional-portfolio/blob/main/assets/images/Top%20of%20website.png)
-*This is a screenshot of top of My Professional Portfolio*
+*This is a screenshot of the top of My Professional Portfolio*
 
 ![](https://github.com/jenstem/my-professional-portfolio/blob/main/assets/images/Projects%20on%20website.png)
 *This is a screenshot of the Project Section*
