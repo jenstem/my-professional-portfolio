@@ -4,8 +4,17 @@
     height: auto;
   }
 
-    .jens_code {
+  .jens_code {
     float: left;
     padding-left: 20px;
     color: white;
+  }
+
+  .nav-bar {
+  }
+
+  nav ul {
+  }
+
+  nav li {
   }
