@@ -44,6 +44,10 @@ header {
     font-weight: bold;
   }
 
+  nav ul li a:hover {
+    color: blue;
+  }
+
     .banner {
     height: 350px;
     width: 100%;
@@ -202,4 +206,8 @@ header {
   }
   .footer-links h4 {
     margin-bottom: 32px;
+  }
+
+  .footer-links a:hover {
+    color: blue;
   }
