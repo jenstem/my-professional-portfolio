@@ -42,7 +42,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 *This is a screenshot of the Project Section*
 
 ![](https://github.com/jenstem/my-professional-portfolio/blob/main/assets/images/Contact%20me%20on%20website.png)
-*This is a screenshot of Contact Me section*
+*This is a screenshot of the Contact Me section*
 
 ## Images & Code:
 
