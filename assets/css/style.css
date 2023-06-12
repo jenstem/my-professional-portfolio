@@ -138,6 +138,10 @@
     background-color: white;
   }
 
+  .right {
+    padding: 25px 40px;
+  }
+
   .text-field {
     width: 100%;
     padding: 6px 12px;
