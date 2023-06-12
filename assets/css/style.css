@@ -100,26 +100,20 @@
     margin-bottom: 30px;
   }
 
-    .project1 {
+  .project1, .project2, .project3, .project4 {
     height: 100%;
     width: 100%;
     border-radius: 8px;
   }
 
-    .project2 {
-    height: 100%;
-    width: 100%;
-    border-radius: 8px;
+  .project1:hover, .project2:hover, .project3:hover, .project4:hover {
+    opacity: 0.5;
   }
 
-    .project3 {
-    height: 100%;
-    width: 100%;
-    border-radius: 8px;
+  h3 {
+    text-align: center;
   }
 
-    .project4 {
-    height: 100%;
-    width: 100%;
-    border-radius: 8px;
+  p {
+    text-align: center;
   }
