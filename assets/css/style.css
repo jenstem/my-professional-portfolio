@@ -100,6 +100,13 @@
     margin-bottom: 30px;
   }
 
+  .work-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+  }
+
   .project1, .project2, .project3, .project4 {
     height: 100%;
     width: 100%;
