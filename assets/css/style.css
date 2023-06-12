@@ -167,3 +167,26 @@
     border: none;
     color: white;
   }
+
+  .footer-box {
+    background-color: purple;
+    padding: 64px 0 64px 0;
+  }
+  .footer-style {
+    width: 80%;
+    height: 200px;
+    background-color: purple;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    margin-right: 64px;
+  }
+  .footer-links h4 {
+    margin-bottom: 32px;
+  }
