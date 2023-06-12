@@ -117,3 +117,25 @@
   p {
     text-align: center;
   }
+
+  .text-field {
+    width: 100%;
+    padding: 6px 12px;
+    outline: none;
+    border: 2px solid white;
+    background-color: #E6E6E6;
+    font-size: 18px;
+    margin-bottom: 22px;
+  }
+
+    .send-button {
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: blue;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: white;
+  }
