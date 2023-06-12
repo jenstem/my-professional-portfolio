@@ -75,3 +75,10 @@
     padding: 32px 0 0;
     max-width: 150px;
   }
+
+    .columns {
+    display: flex;
+    margin: 5px;
+    background-color: white;
+    border-radius: 8px;
+  }
