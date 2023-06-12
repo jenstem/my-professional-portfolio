@@ -152,6 +152,10 @@
     margin-bottom: 22px;
   }
 
+  .message-box {
+    min-height: 150px;
+  }
+
     .send-button {
     width: 100%;
     padding: 6px 12px;
