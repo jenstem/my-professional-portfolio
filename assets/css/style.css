@@ -1,19 +1,26 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  font-family: arial, sans-serif;
-}
+:root {
+    --white: white;
+    --purple: #aa2afa;
+    --blue: #0a5cf5;
+    --black: black;
+  }
 
-header {
-    background: purple;
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+  }
+
+  header {
+    background: var(--purple);
     height: auto;
   }
 
   .jens_code {
     float: left;
     padding-left: 20px;
-    color: white;
+    color: var(--white);
   }
 
   .nav-bar {
@@ -38,17 +45,23 @@ header {
     margin: 10px;
   }
 
-    nav ul li a {
-    color: white;
+
+  nav ul li a {
+    color: var(--white);
     font-size: 16px;
     font-weight: bold;
   }
 
-  nav ul li a:hover {
-    color: blue;
+  .footer-links a {
+    color: var(--white);
+    margin-bottom: 8px;
   }
 
-    .banner {
+  nav ul li a:hover {
+    color: var(--blue);
+  }
+
+  .banner {
     height: 350px;
     width: 100%;
     margin-bottom: 25px;
@@ -57,14 +70,14 @@ header {
     background-position: center;
   }
 
-    main {
+  main {
     padding: 40px;
     min-height: 100%;
     display: flex;
     flex-direction: column;
   }
 
-    body {
+  body {
     margin: 0;
     font-family: arial, sans-serif;
     min-height: 100%;
@@ -72,36 +85,36 @@ header {
     flex-direction: column;
   }
 
-    .about-me {
+  .about-me {
     text-align: center;
     margin: 20px;
     padding-left: 20px;
     padding-right: 20px;
   }
 
-    .profile {
-    color: white;
+  .profile {
+    color: var(--white);
     background-size: cover;
     padding: 32px 0 0;
     max-width: 150px;
   }
 
-    .columns {
+  .columns {
     display: flex;
     margin: 5px;
-    background-color: white;
+    background-color: var(--white);
     border-radius: 8px;
   }
 
-    h2 {
+  h2 {
     position: relative;
     text-align: center;
-    color: blue;
+    color: var(--blue);
     padding-bottom: 10px;
     margin-bottom: 30px;
   }
 
-  h2::after {
+   h2::after {
     content: "";
     position: absolute;
     left: 50%;
@@ -111,16 +124,16 @@ header {
     width: 50px;
   }
 
-    h4 {
+  h4 {
     position: relative;
     text-align: center;
     font-size: 20px;
-    color: white;
+    color: var(--white);
     padding-bottom: 10px;
     margin-bottom: 30px;
   }
 
-  h4::after {
+   h4::after {
     content: "";
     position: absolute;
     left: 50%;
@@ -173,7 +186,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: white;
+    background-color: var(--white);
   }
 
   .right {
@@ -184,7 +197,7 @@ header {
     width: 100%;
     padding: 6px 12px;
     outline: none;
-    border: 2px solid white;
+    border: 2px solid var(--white);
     background-color: #E6E6E6;
     font-size: 18px;
     margin-bottom: 22px;
@@ -194,35 +207,35 @@ header {
     min-height: 150px;
   }
 
-    .send-button {
+  .send-button {
     width: 100%;
     padding: 6px 12px;
     font-size: 18px;
     font-weight: bold;
-    background-color: blue;
+    background-color: var(--blue);
     cursor: pointer;
     outline: none;
     border: none;
-    color: white;
+    color: var(--white);
   }
-
   .send-button:hover {
-    background-color: purple;
+    background-color: var(--purple);
   }
 
   .left {
     height: 200px;
   }
 
+
   .footer-box {
-    background-color: purple;
+    background-color: var(--purple);
     padding: 64px 0 64px 0;
   }
   .footer-style {
     width: 80%;
     height: 200px;
-    background-color: purple;
-    color: white;
+    background-color: var(--purple);
+    color: var(--white);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -238,19 +251,7 @@ header {
   }
 
   .footer-links a:hover {
-    color: blue;
-  }
-
-  @media screen and (max-width: 4500px) {
-    .contact-box {
-      grid-template-columns: 1fr;
-    }
-    .left {
-      height: 200px;
-    }
-    .footer {
-      height: 50px;
-    }
+    color: var(--blue);
   }
 
   @media screen and (max-width: 4500px) {
