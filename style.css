@@ -31,3 +31,9 @@
     padding-top: 10px;
     margin: 10px;
   }
+
+    nav ul li a {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+  }
