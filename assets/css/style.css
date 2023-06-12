@@ -144,6 +144,7 @@ header {
   }
 
   .project1:hover, .project2:hover, .project3:hover, .project4:hover {
+    transform: scale(1.01);
     opacity: 0.5;
   }
 
