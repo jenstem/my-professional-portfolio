@@ -1,6 +1,6 @@
 ## Professional Profolio
 
-Click [here]([https://jenstem.github.io/horiseon_seo_web_page/](https://jenstem.github.io/my-professional-portfolio/) to see the website.
+Click [here]([https://jenstem.github.io/horiseon_seo_web_page/](https://jenstem.github.io/my-professional-portfolio/)) to see the website.
 
 ## Description
 
