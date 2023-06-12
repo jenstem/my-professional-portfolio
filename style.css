@@ -1,0 +1,107 @@
+
+  header {
+    background: purple;
+    height: auto;
+  }
+
+  .jens_code {
+    float: left;
+    padding-left: 20px;
+    color: white;
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav li {
+    display: inline-block;
+    position: relative;
+    padding-top: 10px;
+    margin: 10px;
+  }
+
+    nav ul li a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+    .banner {
+    height: 350px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/code_pic.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+    main {
+    padding: 40px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+    body {
+    margin: 0;
+    font-family: arial, sans-serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+    .about-me {
+    text-align: center;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+    .profile {
+    color: white;
+    background-size: cover;
+    padding: 32px 0 0;
+    max-width: 150px;
+  }
+
+    .columns {
+    display: flex;
+    margin: 5px;
+    background-color: white;
+    border-radius: 8px;
+  }
+
+    h2 {
+    position: relative;
+    text-align: center;
+    color: blue;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+  }
+
+    h4 {
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+  }
+
+  .project1, .project2, .project3, .project4 {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+  }
