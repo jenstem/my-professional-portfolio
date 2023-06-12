@@ -209,6 +209,10 @@ header {
     background-color: purple;
   }
 
+  .left {
+    height: 200px;
+  }
+
   .footer-box {
     background-color: purple;
     padding: 64px 0 64px 0;
@@ -234,4 +238,64 @@ header {
 
   .footer-links a:hover {
     color: blue;
+  }
+
+  @media screen and (max-width: 4500px) {
+    .contact-box {
+      grid-template-columns: 1fr;
+    }
+    .left {
+      height: 200px;
+    }
+    .footer {
+      height: 50px;
+    }
+  }
+
+  @media screen and (max-width: 4500px) {
+    .contact-box {
+      grid-template-columns: 1fr;
+    }
+    .left {
+      height: 200px;
+    }
+    .footer {
+      height: 50px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    header,
+    main {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .nav-bar {
+      flex-direction: column;
+    }
+    .jens_code {
+      margin-bottom: 0;
+    }
+    main {
+      padding-right: 20px;
+    }
+
+    .columns {
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer-style {
+      padding-top: 32px;
+    }
+    .work-box {
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .work-box {
+      flex-direction: column;
+    }
   }
