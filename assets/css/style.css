@@ -68,3 +68,17 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+
+    .profile {
+    color: white;
+    background-size: cover;
+    padding: 32px 0 0;
+    max-width: 150px;
+  }
+
+    .columns {
+    display: flex;
+    margin: 5px;
+    background-color: var(--white);
+    border-radius: 8px;
+  }
