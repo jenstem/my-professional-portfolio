@@ -1,5 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
 
-  header {
+header {
     background: purple;
     height: auto;
   }
