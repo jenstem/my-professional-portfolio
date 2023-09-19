@@ -1,6 +1,6 @@
 /* Root */
 
-:root {
+  :root {
     --white: white;
     --purple: #aa2afa;
     --blue: #0a5cf5;
@@ -177,13 +177,19 @@
 
   /* Projects */
 
-  .project1, .project2, .project3, .project4 {
+  .project1 {
     height: 100%;
     width: 100%;
     border-radius: 8px;
   }
 
-  /* Projects Hover and Pop */
+  .project2, .project3, .project4 {
+    height: auto;
+    width: 30%;
+    border-radius: 8px;
+  }
+
+  /* Projects Hover */
 
   .project1:hover, .project2:hover, .project3:hover, .project4:hover {
     transform: scale(1.01);
@@ -196,7 +202,7 @@
     text-align: center;
   }
 
-  /* Center Text */
+  /* paragraph style */
 
   p {
     text-align: center;
@@ -224,6 +230,12 @@
     background-color: var(--white);
   }
 
+/*   .left {
+    height: 100%;
+    background: url("../images/css-html-background-image.jpg") no-repeat;
+    background-size: cover;
+  } */
+
   .right {
     padding: 25px 40px;
   }
@@ -242,7 +254,7 @@
     min-height: 150px;
   }
 
-  /* Contact Me Button */
+  /* contact us button */
 
   .send-button {
     width: 100%;
@@ -259,12 +271,17 @@
     background-color: var(--purple);
   }
 
+  /* contact grid class space */
+
+ /*  .contact-box {
+    grid-template-columns: 1fr;
+  } */
+
   .left {
     height: 200px;
   }
 
   /* Footer */
-
   .footer-box {
     background-color: var(--purple);
     padding: 64px 0 64px 0;
@@ -295,8 +312,6 @@
 
   /* Media Query */
 
-  /* Desktop */
-
   @media screen and (max-width: 4500px) {
     .contact-box {
       grid-template-columns: 1fr;
@@ -308,8 +323,6 @@
       height: 50px;
     }
   }
-
-  /* Tablet */
 
   @media screen and (max-width: 768px) {
     header,
@@ -340,8 +353,6 @@
       flex-direction: column;
     }
   }
-
-  /* Mobile */
 
   @media screen and (max-width: 375px) {
     .work-box {
