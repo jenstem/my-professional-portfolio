@@ -177,15 +177,9 @@
 
   /* Projects */
 
-  .project1 {
+  .project1 .project2, .project3, .project4 {
     height: 100%;
     width: 100%;
-    border-radius: 8px;
-  }
-
-  .project2, .project3, .project4 {
-    height: auto;
-    width: 30%;
     border-radius: 8px;
   }
 
